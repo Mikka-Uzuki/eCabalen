@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".AboutActivity">
+
+
+    <LinearLayout
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground"
+        android:id="@+id/linearLayoutBack"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            app:tint="@color/black"
+            android:src="@drawable/back_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp">
+
+        </ImageView>
+
+        <TextView
+            android:fontFamily="@font/cabin"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="BACK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/baloobhai"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="About"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/baloobhai"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Porac, Pampanga, originally named Puraq after abundant Purac trees, is believed to be the first established town in Pampanga. It officially became Porac on September 16, 1867. Initially a ranch on the slopes of Batiawan mountain, residents relocated near the Poraq River due to water scarcity. By 1853, it had six barangays with a population of 5,408. It developed as an agricultural town with its own church, local government, and Guardia Civil detachment. After the 1991 Mt. Pinatubo eruption, several barangays were buried under lahar, leading to evacuations and the establishment of relocation sites. Today, Porac is viewed as the Industrial Hub of Central Luzon, attracting investments due to its proximity to Clark International Airport and the Subic Bay Seaport, especially with the construction of the Subic-Clark-Tarlac Expressway (SCTEX).\n\n
+
+The eCabalen Porac Tour Guide App is designed to enhance users' experiences, particularly when they are traveling in the Porac area, visiting tourist spots, and dining at famous restaurants. It is user-friendly and facilitates communication with the local Kampangan people through a language translator.\n\n
+
+eCabalen mobile app ©2023 Group 5. Patented\n\n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
